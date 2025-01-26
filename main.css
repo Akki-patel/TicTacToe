@@ -1,0 +1,123 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Centering the game on the page */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Select Turn Section */
+  div {
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center; /* Align buttons horizontally */
+    gap: 20px; /* Space between the buttons */
+  
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: -10px 0px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0b79d0;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Styling the table */
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  td.X {
+    color: #2196f3;
+  }
+  
+  td.O {
+    color: #e91e63;
+  }
+  
+  /* Button Styling for Reset */
+  #reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  #reset:hover {
+    background-color: #0b79d0;
+  }
+  
+  #reset:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Result text */
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
