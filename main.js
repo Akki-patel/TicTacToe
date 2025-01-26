@@ -18,7 +18,7 @@ function select(obj) {
   if (obj.id === "X") {
     turn = "X";
   } else {
-    turn = "0";
+    turn = "O";
   }
   document.querySelector("h2").innerHTML = `Player ${turn} move`;
 }
